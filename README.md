@@ -59,13 +59,14 @@ Index of initially-selected item in `items` array.
 
 ### limit
 
-Type: `number`
+Type: `number`<br>
+Default: `24`
 
 Number of items in a column. Determines the height of the component.
 
-### columnCount<br>
+### columnCount
 
-Type: `number`
+Type: `number`<br>
 Default: `3`
 
 Number of columns.
