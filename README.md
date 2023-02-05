@@ -64,9 +64,9 @@ Type: `number`
 Number of items in a column. Determines the height of the component.
 
 ### columnCount<br>
-Default: `3`
 
 Type: `number`
+Default: `3`
 
 Number of columns.
 
