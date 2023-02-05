@@ -1,6 +1,6 @@
 {
   "name": "ink-multicolumn-select-input",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Multi-column select input component for Ink",
   "main": "index.js",
   "type" : "module",

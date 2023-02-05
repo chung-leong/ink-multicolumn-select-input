@@ -1,4 +1,4 @@
-# ink-multicolumn-select-input 
+# ink-multicolumn-select-input ![ci](https://img.shields.io/github/actions/workflow/status/chung-leong/ink-multicolumn-select-input/node.js.yml?branch=main&label=Node.js%20CI&logo=github) ![nycrc config on GitHub](https://img.shields.io/nycrc/chung-leong/ink-multicolumn-select-input)
 
 Multi-column select input component for [Ink](https://github.com/vadimdemedes/ink)
 
