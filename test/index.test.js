@@ -1,6 +1,5 @@
 import { expect } from 'chai';
 import { createElement } from 'react';
-import { delay } from 'react-seq';
 import { Text } from 'ink';
 import { render } from 'ink-testing-library';
 
@@ -354,3 +353,7 @@ describe('#MulticolumnSelectInput', function() {
     expect(lines2[0]).to.match(/^  FILENAME1\.EXT\s+X FILENAME13\.EXT\s+FILENAME25\.EXT/);
   })
 })
+
+function delay(ms) {
+  return new Promise(r => setTimeout(r, ms));
+}
