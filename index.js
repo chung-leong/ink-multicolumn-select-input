@@ -54,7 +54,7 @@ export default function MulticolumnSelectInput(props) {
 	const previousItems = useRef();
   useEffect(() => {
     const { current } = previousItems;
-    if (current && items.some((item, i) => item.value !== current[i].value)) {
+    if (current && items.some((item, i) => item.value !== current[i]?.value)) {
       setSelectedIndex(initialIndex);
       setColumnOffset(calculateColumnOffset(initialIndex, columnCount, limit));
     }
